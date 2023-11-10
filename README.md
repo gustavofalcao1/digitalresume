@@ -1,4 +1,4 @@
-# <a src="https://gustavofalcao.pt/digitalresume/">Digital Resume</a>
+# <a href="https://gustavofalcao.pt/digitalresume/">Digital Resume</a>
 
 My Personal Digital Resume in ReactJS
 
