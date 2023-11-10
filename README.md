@@ -1,6 +1,6 @@
-# Digital Resume - ReactJS
+# <a src="https://gustavofalcao.pt/digitalresume/">Digital Resume</a>
 
-My Personal Digital Resume
+My Personal Digital Resume in ReactJS
 
 <div align="center">
   <img src="public/screenshots/home.png" alt="Home Web Page">

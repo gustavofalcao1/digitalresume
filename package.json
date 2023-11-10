@@ -1,5 +1,6 @@
 {
   "name": "digitalresume",
+  "homepage": "https://gustavofalcao.pt/digitalresume/",
   "version": "0.0.1",
   "private": true,
   "dependencies": {
