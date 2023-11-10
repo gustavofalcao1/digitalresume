@@ -50,7 +50,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const token = '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';
+        const token = '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';
         const headers = {
           Authorization: `Bearer ${token}`,
         };
@@ -66,9 +66,9 @@ const Home = () => {
         setForkedRepo(sortedForkeds)
         */
         const org1Response = await axios.get('https://api.github.com/orgs/clueyai/repos', { headers });
-        const org2Response = await axios.get('https://api.github.com/orgs/geekinfinity/repos', { headers });
-  
         const org1Repositories = org1Response.data;
+
+        const org2Response = await axios.get('https://api.github.com/orgs/geekinfinity/repos', { headers });
         const org2Repositories = org2Response.data;
   
         const allOrgs = [
@@ -80,7 +80,7 @@ const Home = () => {
   
         setOrgRepo(sortedOrgs)
       } catch (error) {
-        console.error('Erro ao buscar dados dos repositórios', error);
+        console.error('Erro ao buscar dados dos repositórios', error.message);
       }
     };
 
