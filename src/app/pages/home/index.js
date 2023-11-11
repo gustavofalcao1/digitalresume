@@ -50,7 +50,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const token = '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';
+        const token = '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';
         const headers = {
           Authorization: `Bearer ${token}`,
         };
