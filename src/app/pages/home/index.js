@@ -50,12 +50,7 @@ const Home = () => {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const token = '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';
-        const headers = {
-          Authorization: `Bearer ${token}`,
-        };
-  
-        const userResponse = await axios.get('https://api.github.com/users/gustavofalcao1/repos', { headers });
+        const userResponse = await axios.get('https://api.github.com/users/gustavofalcao1/repos');
         const userRepositories = userResponse.data;
         const personal = userRepositories.filter(repo => !repo.fork);
         const sortedPersonals = personal.sort((a, b) => b.stargazers_count - a.stargazers_count);
@@ -65,10 +60,10 @@ const Home = () => {
         const sortedForkeds = forked.sort((a, b) => b.stargazers_count - a.stargazers_count);
         setForkedRepo(sortedForkeds)
         */
-        const org1Response = await axios.get('https://api.github.com/orgs/clueyai/repos', { headers });
+        const org1Response = await axios.get('https://api.github.com/orgs/clueyai/repos');
         const org1Repositories = org1Response.data;
 
-        const org2Response = await axios.get('https://api.github.com/orgs/geekinfinity/repos', { headers });
+        const org2Response = await axios.get('https://api.github.com/orgs/geekinfinity/repos');
         const org2Repositories = org2Response.data;
   
         const allOrgs = [
