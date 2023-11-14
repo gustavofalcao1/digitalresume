@@ -7,10 +7,14 @@ My Personal Digital Resume in ReactJS
 </div>
 
 
-## Need
+## Technologies
 
-* NodeJS
 * Yarn
+* NodeJS
+* Axios
+* ReactJS
+* JavaScript
+* CSS
 
 ## Install
 
