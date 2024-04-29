@@ -1,4 +1,4 @@
-# <a href="https://gustavofalcao.pt/digitalresume/">Digital Resume</a>
+# <a href="https://gustavofalcao1.github.io/digitalresume/">Digital Resume</a>
 
 My Personal Digital Resume in ReactJS
 
@@ -6,22 +6,19 @@ My Personal Digital Resume in ReactJS
   <img src="public/screenshots/home.png" alt="Home Web Page">
 </div>
 
+### Technologies
+> * Yarn
+> * NodeJS
+> * Axios
+> * ReactJS
+> * JavaScript
+> * CSS
 
-## Technologies
+### Run
+> Install Packages
 
-* Yarn
-* NodeJS
-* Axios
-* ReactJS
-* JavaScript
-* CSS
+>> `yarn install`
 
-## Install
+> Run application
 
-  1. Dependences
-  
-    yarn install
-    
-  2. Start
-  
-    yarn start
+>> `yarn start`
