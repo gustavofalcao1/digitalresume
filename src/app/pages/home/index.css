@@ -1,0 +1,128 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  width: 100%;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.home-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  padding: 0 30px;
+  border-radius: 20px;
+  background: var(--background-box);
+  box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.20);
+}
+.home-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  width: 100%;
+}
+.home-left-txt {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal
+}
+.home-right-txt {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.home-content {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.home-box2 {
+  flex: 1;
+  width: calc(50% - 10px);
+  margin: 10px;
+  padding: 30px;
+  border-radius: 20px;
+  background: var(--background-box);
+  box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.20);
+  cursor: pointer;
+  @media (max-width: 300px) {
+    width: 100%;
+  }
+}
+.home-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin: 10px 0;
+}
+.home-section-txt  {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+}
+.home-section-org  {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-left: 5px;
+}
+.home-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.home-count {
+  display: flex;
+  flex-direction: row;
+}
+.home-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-right: 5px;
+}
+.home-count-txt  {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0 5px;
+}
+.home-title {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-title-txt {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 5px;
+}
+.home-lang {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.home-footer-txt  {
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  margin: 0 5px;
+}

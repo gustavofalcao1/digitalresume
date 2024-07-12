@@ -1,0 +1,92 @@
+{
+  "global": {
+    "lang": "en"
+  },
+  "nav": {
+    "title": "Gustavo Falcão - Full Stack Developer",
+    "description": "Gustavo Falcão Full Stack Developer Portfolio",
+    "name": "Gustavo Falcão",
+    "photo": "https://avatars.githubusercontent.com/u/26607023?v=4",
+    "job": "Full Stack Developer",
+    "country": "Porto - Portugal",
+    "academic": "Computer Enginer - ISLA",
+    "github": "gustavofalcao1",
+    "linked": "gustavofalcao1",
+    "web": "geekinfinity.github.io",
+    "email": "gustavo.falcao01@gmail.com",
+    "tec": "Technologies",
+    "javascript": "JAVASCRIPT",
+    "reactjs": "REACTJS",
+    "nodejs": "NODEJS",
+    "git": "GIT",
+    "figma": "FIGMA",
+    "html": "HTML",
+    "css": "CSS",
+    "typescript": "TYPESCRIPT",
+    "react_native": "REACT NATIVE",
+    "exp": "Experiences",
+    "epad": {
+      "title": "EPAD Gaia",
+      "date": "2021 - Today",
+      "description": "Developer and SysAdmin"
+    },
+    "isla": {
+      "title": "ISLA Gaia",
+      "date": "2020 - 2021",
+      "description": "Helpdesk and SysAdmin"
+    },
+    "edu": "Education",
+    "ei": {
+      "title": "Computer Engineering",
+      "date": "2020 - 2024",
+      "description": "ISLA Gaia"
+    },
+    "os": {
+      "title": "React JS",
+      "date": "2020 - 2020",
+      "description": "OmniStack"
+    },
+    "rsi": {
+      "title": "Computer Networks and Systems",
+      "date": "2018 - 2020",
+      "description": "ISLA Gaia"
+    },
+    "cert": "Certifications",
+    "itn": {
+      "title": "Introduction to Networks",
+      "date": "2018 - 2019",
+      "description": "Cisco - CCNA R&S"
+    },
+    "rse": {
+      "title": "Routing and Switching Essentials",
+      "date": "2018 - 2019",
+      "description": "Cisco - CCNA R&S"
+    },
+    "sn": {
+      "title": "Scaling Networks",
+      "date": "2019 - 2020",
+      "description": "Cisco - CCNA R&S"
+    },
+    "cn": {
+      "title": "Connecting Networks",
+      "date": "2019 - 2020",
+      "description": "Cisco - CCNA R&S"
+    }
+  },
+  "home": {
+    "buttons": {
+      "all": "Show all",
+      "hide": "To hide"
+    },
+    "projects": {
+      "title": "My Projects"
+    },
+    "forked": {
+      "title": "Forked Projects"
+    },
+    "org": {
+      "title": "Organizations Projects",
+      "name": "Organizations:"
+    }
+  }
+}
