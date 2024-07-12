@@ -3,7 +3,7 @@
 My Personal Digital Resume in ReactJS
 
 <div align="center">
-  <img src="public/screenshots/home.png" alt="Home Web Page">
+  <img src="public/screenshots/00.png" alt="Home Web Page">
 </div>
 
 ### Technologies
